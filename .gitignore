@@ -1,0 +1,23 @@
+# Virtual Environments
+*env*/
+venv/
+taichi_env_310/
+
+# Datasets and Outputs
+Massachusetts Roads Dataset/
+Massachusetts Roads Dataset.rar
+task2.rar
+Areal Images/
+Pipeline_image/
+document_embedding_analysis-main/output/
+task/codebase/
+*.csv
+*.mp4
+*.zip
+*.tar.gz
+*.rar
+*.hdr
+
+# Node / Python Modules
+node_modules/
+__pycache__/
