@@ -1,9 +1,0 @@
-flask
-pymongo
-pandas
-plotly
-scikit-learn
-folium
-python-dotenv
-matplotlib
-routes

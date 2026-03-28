@@ -1,34 +1,72 @@
-# DTSool Projects Repository
+# DTSool Multi-Project Repository
 
-This repository contains various AI, Data Science, and Software Development projects created during work at DTSool. 
-It consists of multiple sub-projects, each contained in its own directory with a dedicated environment and source code.
+Welcome to the multi-project repository. This repository serves as a central hub for various independent projects, scripts, and analyses. 
 
-## Projects Overview
+To keep the `main` branch lightweight, the source code and histories for each distinct project have been cleanly separated into their own dedicated sub-branches.
 
-- **Areal Images**: A collection of aerial PNG images.
-- **Assistive_Gym**: Reinforcement learning environments for assistive robotics.
-- **BPM**: Video and image processing code for BPM tasks.
-- **Example**: Web application with Flask and image orientation logic.
-- **Inspre**: Python backend application containing `app.py` and `inspre.py`.
-- **LLM-Chatbot**: A QA Chatbot utilizing Large Language Models.
-- **Massachusetts Roads Dataset**: UNet model implementation (training, evaluation) for the Massachusetts Roads Dataset.
-- **Pipeline_image**: Image processing pipeline with a trained UNet model.
-- **Screening Test**: Contains screening task code and video recordings.
-- **document_embedding_analysis**: Notebooks and scripts for embedding analysis of ArXiv papers, patents, and Wikipedia.
-- **model_evaluation_project**: Infrastructure for evaluating machine learning models.
-- **mongodb_dashboard**: A Flask-based interactive dashboard for MongoDB data.
-- **movie_reviews_analysis**: Sentiment or text analysis on movie reviews.
-- **task**, **task2**, **task3**, **task4_Postman**: Various scripting tasks involving CSV processing, SVG generation, and API templates.
-
-## Setup
-
-Many of these projects require Python. It's recommended to navigate to the specific project directory and install the requirements in a virtual environment.
-
+## 🌿 How to Navigate Projects
+To view the code, run, or contribute to a specific project, simply switch to its corresponding branch using Git:
 ```bash
-cd <project_directory>
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+git fetch --all
+git checkout <branch_name>
 ```
 
-*Note: Environment variables and large binary files (like .h5, .keras, .mp4) are ignored in this repository.*
+## 📂 Available Projects
+
+Below is a directory of all projects available in this repository and their respective branch names:
+
+### 1. Assistive Gym
+- **Branch:** `assistive_gym`
+- **Description:** Reinforcement learning code using the `assistive-gym` framework, designed for robotic assistance and simulation environments.
+
+### 2. BPM
+- **Branch:** `bpm`
+- **Description:** Python scripts for processing video data and managing specific BPM-related tasks.
+
+### 3. Example Project
+- **Branch:** `example`
+- **Description:** A Flask-based web application containing image processing utilities (WebP orientation), HTML templates, and organized inputs.
+
+### 4. Inspre Application
+- **Branch:** `inspre`
+- **Description:** A backend Python application containing `app.py` and `inspre.py` to serve specific subu-project functionalities.
+
+### 5. LLM-Chatbot
+- **Branch:** `llm-chatbot`
+- **Description:** A Q&A chatbot using Large Language Models (`qachatbot.py`), ready for local automated execution.
+
+### 6. Screening Test
+- **Branch:** `screening_test`
+- **Description:** Contains scripts (`p1.py`), demonstration videos, and reports for an assigned screening task.
+
+### 7. Document Embedding Analysis
+- **Branch:** `document_embedding_analysis-main`
+- **Description:** Data science toolkit harnessing embeddings to compare semantic structure, content length, and similarity of generated text (e.g., Arxiv, Wikipedia) against ground truth.
+
+### 8. Model Evaluation Project
+- **Branch:** `model_evaluation_project`
+- **Description:** Scripts and environments designed to systematically test and evaluate various machine learning models across structured data.
+
+### 9. MongoDB Dashboard
+- **Branch:** `mongodb_dashboard`
+- **Description:** A Flask web application providing interactive dashboards and dynamic visualizations of datasets fetched from a MongoDB cluster.
+
+### 10. Movie Reviews Analysis
+- **Branch:** `movie_reviews_analysis`
+- **Description:** End-to-end linguistic and sentiment analysis toolkit for text-based movie reviews.
+
+### 11. Task 1
+- **Branch:** `task`
+- **Description:** Generic utility scripts mapped against specific freelance requirements.
+
+### 12. Task 2
+- **Branch:** `task2`
+- **Description:** Data manipulation application processing sample CSV datasets.
+
+### 13. Task 3
+- **Branch:** `task3`
+- **Description:** Data manipulation logic that extracts features from `.gnh` files and converts graph/table data structures into scalable vectors (`.svg`).
+
+### 14. Task 4 Postman
+- **Branch:** `task4_postman`
+- **Description:** Python HTTP service paired with HTTP request specifications and Postman routing templates.
