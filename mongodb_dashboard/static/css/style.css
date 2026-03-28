@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Login Page */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Dashboard Page */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1 {
+    margin: 0;
+}
+
+.metrics-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.metric-card {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card h2 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.dashboard-buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+.dashboard-buttons .btn {
+    margin: 5px;
+}
+
+/* Visualization Page */
+.plot-container {
+    width: 90%;
+    margin: 20px auto;
+}
